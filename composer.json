@@ -1,0 +1,22 @@
+{
+    "name": "beltranc/unittests",
+    "description": "Basic Module that shows how to implement Unit tests in Magento 2",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Will Beltran",
+            "email": "wbeltran@beltranc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BeltranC\\UnitTests\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
